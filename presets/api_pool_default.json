@@ -1,0 +1,9413 @@
+[
+  {
+    "name": "冷雨枫林·b站搜索",
+    "url": "https://v.yuafeng.cn/api/blilibli",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "b": "1"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^b站搜索2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·b站解析",
+    "url": "https://v.yuafeng.cn/api/blilibli_jx",
+    "type": "video",
+    "params": {
+      "url": ""
+    },
+    "parse": "data.video",
+    "scope": [],
+    "keywords": [
+      "(?i)^b站解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·DNS多节点拨测",
+    "url": "https://v.yuafeng.cn/api/boce_dns_api",
+    "type": "text",
+    "params": {
+      "domain": "",
+      "node": "5"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^DNS拨测$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·HTTP多节点拨测",
+    "url": "https://v.yuafeng.cn/api/boce_http_api",
+    "type": "text",
+    "params": {
+      "domain": "",
+      "node": "5"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^网页拨测$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·ping多节点拨测",
+    "url": "https://v.yuafeng.cn/api/boce_ping_api",
+    "type": "text",
+    "params": {
+      "domain": "",
+      "node": "5"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^多点测速$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·域名查询",
+    "url": "https://v.yuafeng.cn/api/domainquery",
+    "type": "text",
+    "params": {
+      "domain": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·豆包解析",
+    "url": "https://v.yuafeng.cn/api/doubao",
+    "type": "video",
+    "params": {
+      "url": ""
+    },
+    "parse": "data.video",
+    "scope": [],
+    "keywords": [
+      "(?i)^豆包解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·豆英解析",
+    "url": "https://v.yuafeng.cn/api/douyin",
+    "type": "video",
+    "params": {
+      "url": ""
+    },
+    "parse": "data.video",
+    "scope": [],
+    "keywords": [
+      "(?i)^豆英解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·GitHub加速",
+    "url": "https://v.yuafeng.cn/api/ghproxy",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^仓库加速$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·即梦解析",
+    "url": "https://v.yuafeng.cn/api/jimeng",
+    "type": "video",
+    "params": {
+      "url": ""
+    },
+    "parse": "data.video",
+    "scope": [],
+    "keywords": [
+      "(?i)^即梦解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·扣扣音乐登录2",
+    "url": "https://v.yuafeng.cn/api/login_music",
+    "type": "text",
+    "params": {
+      "select": "qr"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^音乐登录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·猫眼实时票房",
+    "url": "https://v.yuafeng.cn/api/maoyanbox",
+    "type": "text",
+    "params": {
+      "mod": "实时大盘"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^猫眼票房$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·MD5加密",
+    "url": "https://v.yuafeng.cn/api/md5encrypt",
+    "type": "text",
+    "params": {
+      "text": "",
+      "format": "md5"
+    },
+    "parse": "data.md5",
+    "scope": [],
+    "keywords": [
+      "(?i)^MD5加密$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·迷你世界查主页",
+    "url": "https://v.yuafeng.cn/api/mini",
+    "type": "text",
+    "params": {
+      "uin": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^迷你主页$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·迷你世界s7加解密",
+    "url": "https://v.yuafeng.cn/api/mini_s7",
+    "type": "text",
+    "params": {
+      "text": "",
+      "select": "encode"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^迷你加密$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·墨迹天气查询",
+    "url": "https://v.yuafeng.cn/api/mojiweather",
+    "type": "text",
+    "params": {
+      "city": "",
+      "n": "1",
+      "type": "text"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^墨迹天气$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·QQ音乐用户收藏",
+    "url": "https://v.yuafeng.cn/api/qqmusicuser",
+    "type": "text",
+    "params": {
+      "uin": "",
+      "select": "单选"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^音乐收藏$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·QQ头像获取",
+    "url": "https://v.yuafeng.cn/api/qqtx",
+    "type": "image",
+    "params": {
+      "qq": "",
+      "t": "640"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ头像$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·QQ域名安全检测",
+    "url": "https://v.yuafeng.cn/api/qqurlcheck",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ查链$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·二维码生成",
+    "url": "https://v.yuafeng.cn/api/qrcode",
+    "type": "image",
+    "params": {
+      "text": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^二维码$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·视频大全",
+    "url": "https://v.yuafeng.cn/api/spxl",
+    "type": "video",
+    "params": {
+      "type": "json",
+      "urltype": "json"
+    },
+    "parse": "data.url",
+    "scope": [],
+    "keywords": [
+      "(?i)^视频大全$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·SSL证书查询",
+    "url": "https://v.yuafeng.cn/api/sslquery",
+    "type": "text",
+    "params": {
+      "domain": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^查证书$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·表情包搜索",
+    "url": "https://v.yuafeng.cn/api/stickersSearch",
+    "type": "image",
+    "params": {
+      "msg": "",
+      "page": "1",
+      "num": "1"
+    },
+    "parse": "data[0].sticker_url",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜表情$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·多语言翻译",
+    "url": "https://v.yuafeng.cn/api/translate",
+    "type": "text",
+    "params": {
+      "content": "",
+      "to": "en"
+    },
+    "parse": "data.content",
+    "scope": [],
+    "keywords": [
+      "(?i)^翻译$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·文字转语音",
+    "url": "https://v.yuafeng.cn/api/tts",
+    "type": "audio",
+    "params": {
+      "msg": "",
+      "format": "mp3",
+      "rate": "3",
+      "volume": "5"
+    },
+    "parse": "data.file_link",
+    "scope": [],
+    "keywords": [
+      "(?i)^转语音$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·台风数据",
+    "url": "https://v.yuafeng.cn/api/typhoon",
+    "type": "text",
+    "params": {
+      "action": "active"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^台风数据$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·视频号解析",
+    "url": "https://v.yuafeng.cn/api/wxjx",
+    "type": "video",
+    "params": {
+      "url": ""
+    },
+    "parse": "data.video",
+    "scope": [],
+    "keywords": [
+      "(?i)^视频号解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·闲鱼作图",
+    "url": "https://v.yuafeng.cn/api/xianyu_img",
+    "type": "image",
+    "params": {
+      "qq": "",
+      "type": "1"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^闲鱼作图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "冷雨枫林·有道翻译",
+    "url": "https://v.yuafeng.cn/api/youdao",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "msg.translated",
+    "scope": [],
+    "keywords": [
+      "(?i)^有道翻译$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·JSON格式化校验",
+    "url": "https://api-v2.yuafeng.cn/API/json_tool.php",
+    "type": "text",
+    "params": {
+      "json": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^整理格式$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·时间戳日期互换",
+    "url": "https://api-v2.yuafeng.cn/API/ts_convert.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^时间互转$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·获取本站服务器数据",
+    "url": "https://api-v2.yuafeng.cn/API/bt_api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^服务器状态$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·恶搞语音文字转语音tts",
+    "url": "https://api-v2.yuafeng.cn/API/kktts.php",
+    "type": "text",
+    "params": {
+      "content": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^恶搞语音$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·实时汇率查询",
+    "url": "https://api-v2.yuafeng.cn/API/exchangerate_api.php",
+    "type": "text",
+    "params": {
+      "to": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^实时汇率查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·国内各地区油价查询",
+    "url": "https://api-v2.yuafeng.cn/API/oil_price_api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^查油价$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·表情包合成",
+    "url": "https://api-v2.yuafeng.cn/API/emoji_mix.php",
+    "type": "text",
+    "params": {
+      "slug": "",
+      "format": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^表情包合成$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·多倒计时提示（图片版）",
+    "url": "https://api-v2.yuafeng.cn/API/daojis.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^多倒计时提示$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·12306余票和票价查询",
+    "url": "https://api-v2.yuafeng.cn/API/12306_piaojia.php",
+    "type": "text",
+    "params": {
+      "date": "",
+      "from": "",
+      "to": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^查火车票$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·实时黄金多品牌价格",
+    "url": "https://api-v2.yuafeng.cn/API/huangjin.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^查金价$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·UC浏览器热搜榜单",
+    "url": "https://api-v2.yuafeng.cn/API/xq_shenmahot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^UC热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·企鹅开放平台功能集接口",
+    "url": "https://api-v2.yuafeng.cn/API/qqopen_platform_functionset.php",
+    "type": "text",
+    "params": {
+      "mode": "",
+      "quin": "",
+      "quid": "",
+      "qticket": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^开放平台$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·龙虾创建机器人",
+    "url": "https://api-v2.yuafeng.cn/API/qq_open_platform.php",
+    "type": "text",
+    "params": {
+      "qticket_lite": "",
+      "quid": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^建机器人$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·获取开放平台ck",
+    "url": "https://api-v2.yuafeng.cn/API/open_platform_ck.php",
+    "type": "text",
+    "params": {
+      "mode": "",
+      "qrcode": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^平台凭据$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·龙虾开放平台机器人列表查询",
+    "url": "https://api-v2.yuafeng.cn/API/qq_lobster_list.php",
+    "type": "text",
+    "params": {
+      "qticket_lite": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^机器人列表$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·扣扣开放平台龙虾取ck",
+    "url": "https://api-v2.yuafeng.cn/API/qq_lobster_getck.php",
+    "type": "text",
+    "params": {
+      "mode": "",
+      "session_id": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^机器人凭据$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·deepseek-v3.2(满血记忆版)",
+    "url": "https://api-v2.yuafeng.cn/API/deepseek_v32.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "id": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^深度问答$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·名字重名查",
+    "url": "https://api-v2.yuafeng.cn/API/name_duplicate_query.php",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^名字重名查$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·ip归属地经纬度查询（并发高性能）",
+    "url": "https://api-v2.yuafeng.cn/API/ip_location.php",
+    "type": "text",
+    "params": {
+      "ip": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^IP定位$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·ip归属地查询（本地）",
+    "url": "https://api-v2.yuafeng.cn/API/ip_local.php",
+    "type": "text",
+    "params": {
+      "ip": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^本地查IP$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·灰色头像制作（作图）",
+    "url": "https://api-v2.yuafeng.cn/API/qq_avatar_combine.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^灰色头像制作$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·头像像素画（作图）",
+    "url": "https://api-v2.yuafeng.cn/API/qq_avatar_pixel.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^头像像素画$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·企鹅群头像",
+    "url": "https://api-v2.yuafeng.cn/API/qq_quntx.php",
+    "type": "image",
+    "params": {
+      "qun": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^群头像$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·明日方舟蓝图分享码",
+    "url": "https://api-v2.yuafeng.cn/API/mrfz.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^方舟蓝图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·IP归属地查询(仅支持IPV4)",
+    "url": "https://api-v2.yuafeng.cn/API/get_ipv4_info.php",
+    "type": "text",
+    "params": {
+      "ip": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^查IP$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·ocr图片文字提取",
+    "url": "https://api-v2.yuafeng.cn/API/ocr_img.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^识图文字$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·AI文本审核（高速）",
+    "url": "https://api-v2.yuafeng.cn/API/aiwenben.php",
+    "type": "text",
+    "params": {
+      "text": ""
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^文本审核$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·tx新闻热搜",
+    "url": "https://api-v2.yuafeng.cn/API/txxw.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^tx新闻热搜$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·蓝奏云解析（支持密码）",
+    "url": "https://api-v2.yuafeng.cn/API/lanzou.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^蓝奏解析2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·最右视频解析(视频、图集）",
+    "url": "https://api-v2.yuafeng.cn/API/zuiyou.php",
+    "type": "video",
+    "params": {
+      "url": ""
+    },
+    "parse": "data.video",
+    "scope": [],
+    "keywords": [
+      "(?i)^最右解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·kg_mv视频",
+    "url": "https://api-v2.yuafeng.cn/API/kg_MV.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^酷狗MV$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·12306车站大屏信息",
+    "url": "https://api-v2.yuafeng.cn/API/gaot.php",
+    "type": "text",
+    "params": {
+      "city": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^车站大屏$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·每日三角洲密码",
+    "url": "https://api-v2.yuafeng.cn/API/sjzmm.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^三角洲密码$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·baidu短剧搜索",
+    "url": "https://api-v2.yuafeng.cn/API/baidudanju.php",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜短剧$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·wx客户端链接阻拦状态",
+    "url": "https://api-v2.yuafeng.cn/API/wxchack.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^微信查链$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·成语查询",
+    "url": "https://api-v2.yuafeng.cn/API/idioms_search.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^成语查询$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·超级答题王",
+    "url": "https://api-v2.yuafeng.cn/API/random_question.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^超级答题王$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·今日热门",
+    "url": "https://api-v2.yuafeng.cn/API/jinri_hot.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^今日热门$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·回森解析",
+    "url": "https://api-v2.yuafeng.cn/API/hsjx.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^回森解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·KFC文案",
+    "url": "https://api-v2.yuafeng.cn/API/kfc.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^KFC文案$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·随机超能力",
+    "url": "https://api-v2.yuafeng.cn/API/sup_power.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机超能力$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·AI图片变清晰",
+    "url": "https://api-v2.yuafeng.cn/API/clear_image.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片清晰$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·AI抠图",
+    "url": "https://api-v2.yuafeng.cn/API/aikoutu.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^AI抠图$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·ping",
+    "url": "https://api-v2.yuafeng.cn/API/ping.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^ping$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·百度百科词条搜索",
+    "url": "https://api-v2.yuafeng.cn/API/baike.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^百度百科2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·历史上的今天",
+    "url": "https://api-v2.yuafeng.cn/API/almanac.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^历史上的今3$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·应用宝软件搜索",
+    "url": "https://api-v2.yuafeng.cn/API/yyb.php",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜应用$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·图片格式转换②",
+    "url": "https://api-v2.yuafeng.cn/API/toPng.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片转PNG$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·图片格式转换①",
+    "url": "https://api-v2.yuafeng.cn/API/toJpeg.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片转JPG$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·IP经纬度查询（支持ipv6）",
+    "url": "https://api-v2.yuafeng.cn/API/ip.php",
+    "type": "text",
+    "params": {
+      "ip": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^IP坐标$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·看图猜成语",
+    "url": "https://api-v2.yuafeng.cn/API/idiom.php",
+    "type": "text",
+    "params": {
+      "action": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看图猜成语$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·官机获取用户头像",
+    "url": "https://api-v2.yuafeng.cn/API/qqBot_Avatar.php",
+    "type": "text",
+    "params": {
+      "appid": "",
+      "openid": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^用户头像$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·文本乱序",
+    "url": "https://api-v2.yuafeng.cn/API/wblx.php",
+    "type": "text",
+    "params": {
+      "text": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^文本乱序$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·咪小咕点歌",
+    "url": "https://api-v2.yuafeng.cn/API/mgmusic.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^咪小咕点歌$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·违禁词检测",
+    "url": "https://api-v2.yuafeng.cn/API/wjc.php",
+    "type": "text",
+    "params": {
+      "text": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^违禁词检测$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·大模型语音合成",
+    "url": "https://api-v2.yuafeng.cn/API/yuyin.php",
+    "type": "text",
+    "params": {
+      "text": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^模型语音$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·语言合成",
+    "url": "https://api-v2.yuafeng.cn/API/miniMax.php",
+    "type": "text",
+    "params": {
+      "text": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^语言合成$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·快递查询",
+    "url": "https://api-v2.yuafeng.cn/API/kuaidi.php",
+    "type": "text",
+    "params": {
+      "id": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^快递查询$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·影视搜索",
+    "url": "https://api-v2.yuafeng.cn/API/filmSearch.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^影视搜索$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "枫雨二代·小说搜索",
+    "url": "https://api-v2.yuafeng.cn/API/novelSearch.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^小说搜索$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·人工智能大模型",
+    "url": "https://api.tangdouz.com/dian",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^智能问答$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·IP反查域名",
+    "url": "https://api.tangdouz.com/a/ipfc.php",
+    "type": "text",
+    "params": {
+      "ip": "",
+      "f": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^IP反查域名$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·万象棋",
+    "url": "https://api.tangdouz.com/a/wxq/wxq.php",
+    "type": "text",
+    "params": {
+      "f": "",
+      "type": "",
+      "size": "",
+      "q": "",
+      "fields": "",
+      "id": "",
+      "sort": "",
+      "cat": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^万象棋$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·藏头诗",
+    "url": "https://api.tangdouz.com/a/cts/cts.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^藏头诗$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·小黑盒即将上线游戏",
+    "url": "https://api.tangdouz.com/a/hbox/recent.php",
+    "type": "text",
+    "params": {
+      "return": "",
+      "date": "",
+      "flat": "",
+      "limit": "",
+      "platform": "",
+      "next": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^新游预告$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·星座运势",
+    "url": "https://api.tangdouz.com/a/star.php",
+    "type": "text",
+    "params": {
+      "xz": "",
+      "return": "json",
+      "type": "",
+      "id": "",
+      "list": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^星座运势$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·最近上映电影",
+    "url": "https://api.tangdouz.com/a/movie.php",
+    "type": "text",
+    "params": {
+      "return": "json",
+      "limit": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^最近上映电影$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·解析扫描",
+    "url": "https://api.tangdouz.com/a/jiexi.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "return": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^解析扫描$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·端口扫描",
+    "url": "https://api.tangdouz.com/a/portscan.php",
+    "type": "text",
+    "params": {
+      "host": "",
+      "ports": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^端口扫描$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·Ping检测",
+    "url": "https://api.tangdouz.com/a/ping.php",
+    "type": "text",
+    "params": {
+      "host": "",
+      "count": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^Ping检测$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·动效文字GIF",
+    "url": "https://api.tangdouz.com/a/gif/textgif.php",
+    "type": "image",
+    "params": {
+      "text": "",
+      "style": "",
+      "speed": "",
+      "bg": "",
+      "textcolor": "",
+      "overcolor": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^动效文字$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·实时汇率",
+    "url": "https://api.tangdouz.com/a/huilv/huilv.php",
+    "type": "text",
+    "params": {
+      "from": "",
+      "to": "",
+      "amount": "",
+      "list": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^实时汇率$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·IP归属地精准查询",
+    "url": "https://api.tangdouz.com/a/ip/ip.php",
+    "type": "text",
+    "params": {
+      "ip": "",
+      "return": "json",
+      "f": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^精准查IP$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·分钟级天气预测",
+    "url": "https://api.tangdouz.com/a/weather/mtq.php",
+    "type": "text",
+    "params": {
+      "city": "",
+      "hours": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^分钟天气$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机网名及头像",
+    "url": "https://api.tangdouz.com/a/randname.php",
+    "type": "text",
+    "params": {
+      "xb": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网名头像$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·mc我的世界wiki",
+    "url": "https://api.tangdouz.com/mcwiki.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^MC百科$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·ICP备案查询",
+    "url": "https://api.tangdouz.com/a/icp/",
+    "type": "text",
+    "params": {
+      "type": "",
+      "search": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^查备案$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·台风实时数据",
+    "url": "https://api.tangdouz.com/a/taifeng/",
+    "type": "text",
+    "params": {
+      "id": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^实时台风$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·肥鱼说",
+    "url": "https://api.tangdouz.com/a/fatfish.php",
+    "type": "image",
+    "params": {
+      "text": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^肥鱼说$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·B站番剧时间表",
+    "url": "https://api.tangdouz.com/a/fanju.php",
+    "type": "text",
+    "params": {
+      "name": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^追番日历$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·每日日报",
+    "url": "https://api.tangdouz.com/a/60/",
+    "type": "text",
+    "params": {
+      "url": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^每日日报$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·小黑盒帖子解析",
+    "url": "https://api.tangdouz.com/a/hbox/",
+    "type": "text",
+    "params": {
+      "url": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^黑盒解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·阴阳师模拟抽卡",
+    "url": "https://api.tangdouz.com/a/yys/yysdraw.php",
+    "type": "text",
+    "params": {
+      "n": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^模拟抽卡$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·markdown与html互转",
+    "url": "https://api.tangdouz.com/a/md.php",
+    "type": "text",
+    "params": {
+      "md": "",
+      "html": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^标记互转$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·每日日历",
+    "url": "https://api.tangdouz.com/a/perday/day.php",
+    "type": "text",
+    "params": {
+      "content": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^每日日历$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·文字转拼音",
+    "url": "https://api.tangdouz.com/a/pinyin/",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^文字转拼音$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·唱歌",
+    "url": "https://api.tangdouz.com/dian",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^唱歌$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·piv每日随机图片",
+    "url": "https://api.tangdouz.com/zzz/p2.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机插画$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·域名ssl证书查询",
+    "url": "https://api.tangdouz.com/a/ssl.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^证书查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·多设备共享文本",
+    "url": "https://api.tangdouz.com/share/",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^共享文本$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·浙商积存金实时金价api",
+    "url": "https://api.tangdouz.com/a/zsgold.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^积存金价$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机哈基米音乐",
+    "url": "https://api.tangdouz.com/zzz/hjm.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^哈基米$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·拟人语音合成",
+    "url": "https://api.tangdouz.com/dian",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^拟人语音合成$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·古风小生标签图片",
+    "url": "https://api.tangdouz.com/wz/biaoqian1.php",
+    "type": "image",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^古风标签$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·饥荒wiki",
+    "url": "https://api.tangdouz.com/a/jhwiki.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^饥荒wiki$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·whois查询",
+    "url": "https://api.tangdouz.com/a/whois.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名注册$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·360随机风景壁纸",
+    "url": "https://api.tangdouz.com/a/360bza.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^风景壁纸$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·喜加一",
+    "url": "https://api.tangdouz.com/a/steam.php",
+    "type": "text",
+    "params": {
+      "name": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^喜加一$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·语音转文字",
+    "url": "https://api.tangdouz.com/dian",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^语音转文字$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机谜语",
+    "url": "https://api.tangdouz.com/a/miyu.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机谜语$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·脑筋急转弯",
+    "url": "https://api.tangdouz.com/a/brain.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^脑筋急转弯$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·显卡排行榜",
+    "url": "https://api.tangdouz.com/a/gpu.php",
+    "type": "text",
+    "params": {
+      "f": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^显卡排行榜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·死亡结果计算器",
+    "url": "https://api.tangdouz.com/a/die.php",
+    "type": "text",
+    "params": {
+      "return": "json",
+      "nian": "",
+      "yue": "",
+      "ri": "",
+      "xingbie": "",
+      "shengao": "",
+      "tizhong": "",
+      "xintai": "",
+      "xiyan": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^死亡计算$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·垃圾分类",
+    "url": "https://api.tangdouz.com/a/garbage.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^垃圾分类$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·古诗名句",
+    "url": "https://api.tangdouz.com/a/hotpoet.php",
+    "type": "text",
+    "params": {
+      "name": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^古诗名句$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·节日倒计时",
+    "url": "https://api.tangdouz.com/nlholiday.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^节日倒计时$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·MC基岩版最新版本号",
+    "url": "https://api.tangdouz.com/a/mcver.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^基岩版本$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·网页截图",
+    "url": "https://api.tangdouz.com/dian",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网页截图$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·文字找茬",
+    "url": "https://api.tangdouz.com/tdcq/wzzc.php",
+    "type": "text",
+    "params": {
+      "x": "",
+      "y": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^文字找茬$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·每日一句",
+    "url": "https://api.tangdouz.com/a/perday.php",
+    "type": "text",
+    "params": {
+      "img": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^每日一句$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·音频转silk",
+    "url": "https://api.tangdouz.com/dian",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^音频转码$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·哔哩哔哩热榜",
+    "url": "https://api.tangdouz.com/a/hotbili.php",
+    "type": "text",
+    "params": {
+      "keyword": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^B站热榜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·科技资讯",
+    "url": "https://api.tangdouz.com/a/it.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^科技资讯$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·古诗",
+    "url": "https://api.tangdouz.com/poet/poet.php",
+    "type": "text",
+    "params": {
+      "name": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^古诗$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·抽签",
+    "url": "https://api.tangdouz.com/wz/cq.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抽签$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·🐧，音乐点歌",
+    "url": "https://api.tangdouz.com/a/qqmusic.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ点歌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·金铲铲公告",
+    "url": "https://api.tangdouz.com/a/jcc_notice.php",
+    "type": "text",
+    "params": {
+      "img": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^金铲铲公告$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·5v5公告",
+    "url": "https://api.tangdouz.com/a/5v5_notice.php",
+    "type": "text",
+    "params": {
+      "img": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^5v5公告$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·元梦之星公告",
+    "url": "https://api.tangdouz.com/a/ymzx_notice.php",
+    "type": "text",
+    "params": {
+      "img": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^元梦之星公告$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·原神公告",
+    "url": "https://api.tangdouz.com/a/genshin_notice.php",
+    "type": "text",
+    "params": {
+      "img": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^原神公告$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·阴阳师公告",
+    "url": "https://api.tangdouz.com/a/yys_notice.php",
+    "type": "text",
+    "params": {
+      "img": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^阴阳师公告$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·tea动态加解密",
+    "url": "https://api.tangdouz.com/a/tea.php",
+    "type": "text",
+    "params": {
+      "f": "",
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^动态加密$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·urldecode",
+    "url": "https://api.tangdouz.com/a/urldecode.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网址解码$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·24点巧算",
+    "url": "https://api.tangdouz.com/a/24.php",
+    "type": "text",
+    "params": {
+      "num1": "",
+      "num2": "",
+      "num3": "",
+      "num4": "",
+      "ms": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^算24点$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·一言1",
+    "url": "https://api.tangdouz.com/a/one.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^一言1$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·360随机动漫壁纸",
+    "url": "https://api.tangdouz.com/a/360bz.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^动漫壁纸$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·透明头像1",
+    "url": "https://api.tangdouz.com/wz/tmtx1.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^透明头像1$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·表情包搜索",
+    "url": "https://api.tangdouz.com/a/biaoq.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜表情2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·ai-网页体验版",
+    "url": "https://api.tangdouz.com/a/webchat/",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网页问答$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·跑路表情包",
+    "url": "https://api.tangdouz.com/wz/quan.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^跑路表情包$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·幻兽帕鲁孵蛋计算器",
+    "url": "https://api.tangdouz.com/a/palu/fu.php",
+    "type": "text",
+    "params": {
+      "palu1": "",
+      "palu2": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^孵蛋计算$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·今日运势",
+    "url": "https://api.tangdouz.com/wz/luck.php",
+    "type": "image",
+    "params": {
+      "theme": "",
+      "return": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^今日运势$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·日历",
+    "url": "https://api.tangdouz.com/htmlimage/rl.php",
+    "type": "image",
+    "params": {
+      "return": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^日历$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·朋友圈一言",
+    "url": "https://api.tangdouz.com/a/pyq.php",
+    "type": "text",
+    "params": {
+      "return": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^朋友圈一言$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·骚扰电话查询",
+    "url": "https://api.tangdouz.com/a/sao.php",
+    "type": "text",
+    "params": {
+      "phone": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^骚扰电话查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·诗句摘录",
+    "url": "https://api.tangdouz.com/a/poetrand.php",
+    "type": "text",
+    "params": {
+      "return": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^诗句摘录$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·菜谱",
+    "url": "https://api.tangdouz.com/a/makefood.php",
+    "type": "text",
+    "params": {
+      "f": "",
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^菜谱$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·cosplay集图，每天更新",
+    "url": "https://api.tangdouz.com/hlxmt.php",
+    "type": "text",
+    "params": {
+      "return": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看COS$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·心灵鸡汤",
+    "url": "https://api.tangdouz.com/a/jt.php",
+    "type": "text",
+    "params": {
+      "return": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^心灵鸡汤$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·浅草寺抽签",
+    "url": "https://api.tangdouz.com/a/ccscq.php",
+    "type": "text",
+    "params": {
+      "return": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^浅草寺抽签$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·特殊名称",
+    "url": "https://api.tangdouz.com/a/tsname.php",
+    "type": "text",
+    "params": {
+      "name": "",
+      "wb": "",
+      "f": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^特殊名称$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·统计信息",
+    "url": "https://api.tangdouz.com/ipjs/ip.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "name": "",
+      "sl": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^统计信息$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·文案合集",
+    "url": "https://api.tangdouz.com/a/refuel.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^文案合集$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·日出日落",
+    "url": "https://api.tangdouz.com/rcrl.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^日出日落$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·情书",
+    "url": "https://api.tangdouz.com/a/love.php",
+    "type": "text",
+    "params": {
+      "gon": "",
+      "shou": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^情书$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·中草药",
+    "url": "https://api.tangdouz.com/a/zcy.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^中草药$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·你们看到她了吗",
+    "url": "https://api.tangdouz.com/wz/cute.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看到她吗$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·喜报",
+    "url": "https://api.tangdouz.com/wz/xb.php",
+    "type": "image",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^喜报$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·透明头像",
+    "url": "https://api.tangdouz.com/wz/tmtx.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^透明头像$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·你怎么和··一样",
+    "url": "https://api.tangdouz.com/wz/yy.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^你怎么和$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·答题",
+    "url": "https://api.tangdouz.com/a/dt.php",
+    "type": "text",
+    "params": {
+      "f": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^答题$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机key",
+    "url": "https://api.tangdouz.com/keyun.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机key$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·图片验证码",
+    "url": "https://api.tangdouz.com/wz/yzm.php",
+    "type": "image",
+    "params": {
+      "num": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片验证码$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机坤坤表情包",
+    "url": "https://api.tangdouz.com/zzz/kk.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^坤坤表情$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·中文域名",
+    "url": "https://api.tangdouz.com/a/zwym.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^中文域名$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·cp",
+    "url": "https://api.tangdouz.com/cp.php",
+    "type": "text",
+    "params": {
+      "gon": "",
+      "shou": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^cp$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·文章",
+    "url": "https://api.tangdouz.com/wenzhang.php",
+    "type": "text",
+    "params": {
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^文章$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·绕口令",
+    "url": "https://api.tangdouz.com/rkl.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^绕口令$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·发病",
+    "url": "https://api.tangdouz.com/beill.php",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^发病$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·中文检测",
+    "url": "https://api.tangdouz.com/qg/chinese.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^中文检测$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·土味情话",
+    "url": "https://api.tangdouz.com/love.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^土味情话$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·撕",
+    "url": "https://api.tangdouz.com/wz/si.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^撕$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·我朋友说",
+    "url": "https://api.tangdouz.com/wz/py.php",
+    "type": "image",
+    "params": {
+      "q": "",
+      "nr": "",
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^我朋友说$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·对对联",
+    "url": "https://api.tangdouz.com/duilian.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^对对联$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·抖.音解析",
+    "url": "https://api.tangdouz.com/dy.php",
+    "type": "text",
+    "params": {
+      "lj": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抖音解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·时间戳转时间",
+    "url": "https://api.tangdouz.com/time4.php",
+    "type": "text",
+    "params": {
+      "time": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^时间戳$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·想",
+    "url": "https://api.tangdouz.com/wz/think.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^想$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·我老婆",
+    "url": "https://api.tangdouz.com/wz/wife.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^我老婆$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·吃",
+    "url": "https://api.tangdouz.com/wz/eat.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^吃$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·塔罗牌",
+    "url": "https://api.tangdouz.com/tarot.php",
+    "type": "text",
+    "params": {
+      "img": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^塔罗牌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·图文合成②号接口",
+    "url": "https://api.tangdouz.com/wz/tuw2.php",
+    "type": "image",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图文合成$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·答案之书",
+    "url": "https://api.tangdouz.com/answer.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^答案之书$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·天气",
+    "url": "https://api.tangdouz.com/tq.php",
+    "type": "text",
+    "params": {
+      "dz": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^天气$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·爬",
+    "url": "https://api.tangdouz.com/wz/pa.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^爬$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·解字节型加密",
+    "url": "https://api.tangdouz.com/byte.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^解字节型加密$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·王者英雄语音",
+    "url": "https://api.tangdouz.com/wzyyb.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^王者英雄语音$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·图文合成接口",
+    "url": "https://api.tangdouz.com/wz/tuw1.php",
+    "type": "image",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图文制作$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·群友说",
+    "url": "https://api.tangdouz.com/wz/qunshuo.php",
+    "type": "image",
+    "params": {
+      "qq": "",
+      "nr": "",
+      "sf": "",
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^群友说$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·相思",
+    "url": "https://api.tangdouz.com/wz/xiansi.php",
+    "type": "image",
+    "params": {
+      "q": "",
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^相思$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·拽",
+    "url": "https://api.tangdouz.com/wz/zhuai.php",
+    "type": "image",
+    "params": {
+      "q": "",
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^拽$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·报时、整点报时②",
+    "url": "https://api.tangdouz.com/wz/zdbs1.php",
+    "type": "image",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^语音报时$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·标签图片",
+    "url": "https://api.tangdouz.com/wz/biaoqian.php",
+    "type": "image",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^标签图片$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·打开QQ群",
+    "url": "https://api.tangdouz.com/qqtzq.php",
+    "type": "text",
+    "params": {
+      "qh": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^打开QQ群$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·打开QQ名片",
+    "url": "https://api.tangdouz.com/qqtz.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^打开QQ名片$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机动漫壁纸",
+    "url": "https://api.tangdouz.com/sjdmbz.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机动漫壁纸$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·签到图",
+    "url": "https://api.tangdouz.com/wz/qd.php",
+    "type": "image",
+    "params": {
+      "qq": "",
+      "bt": "",
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^签到图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·来份兽耳",
+    "url": "https://api.tangdouz.com/sjer.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^来份兽耳$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·刑法",
+    "url": "https://api.tangdouz.com/xf.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "xz": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^刑法$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·捅",
+    "url": "https://api.tangdouz.com/wz/ton.php",
+    "type": "image",
+    "params": {
+      "q": "",
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^捅$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·多随机数",
+    "url": "https://api.tangdouz.com/sjs.php",
+    "type": "text",
+    "params": {
+      "min": "",
+      "max": "",
+      "num": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^多随机数$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机数",
+    "url": "https://api.tangdouz.com/sjs1.php",
+    "type": "text",
+    "params": {
+      "min": "",
+      "max": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机数$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·农历",
+    "url": "https://api.tangdouz.com/nl.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^农历$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机鲲",
+    "url": "https://api.tangdouz.com/zzz/j.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机鲲$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·看电视",
+    "url": "https://api.tangdouz.com/wz/looktv.php",
+    "type": "image",
+    "params": {
+      "q": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看电视$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·公告",
+    "url": "https://api.tangdouz.com/api/gg.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^公告$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·猜字谜",
+    "url": "https://api.tangdouz.com/czm.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^猜字谜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·颜色转图片",
+    "url": "https://api.tangdouz.com/wz/color.php",
+    "type": "image",
+    "params": {
+      "color": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^颜色转图片$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·奇怪的接口⑥",
+    "url": "https://api.tangdouz.com/qg/qg6.php",
+    "type": "text",
+    "params": {
+      "num": "",
+      "a": "",
+      "b": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^奇怪的接口⑥$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机名字",
+    "url": "https://api.tangdouz.com/sjmz.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机名字$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·排行榜",
+    "url": "https://api.tangdouz.com/phb",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^排行榜$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·接口搜索-右上角列表展开",
+    "url": "https://api.tangdouz.com/",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜接口$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·一中一英一言",
+    "url": "https://api.tangdouz.com/zwywyy.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^一中一英一言$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·奇怪的接口⑤",
+    "url": "https://api.tangdouz.com/zz.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "nr1": "",
+      "f": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^奇怪的接口⑤$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·百度百科",
+    "url": "https://api.tangdouz.com/bk.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^百度百科$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·二十四节气",
+    "url": "https://api.tangdouz.com/jieq.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^二十四节气$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·奇怪的接口④",
+    "url": "https://api.tangdouz.com/qg/qg4.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^奇怪的接口④$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·奇怪的接口③",
+    "url": "https://api.tangdouz.com/qg/qg3.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^奇怪的接口③$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·奇怪的接口②",
+    "url": "https://api.tangdouz.com/qg/qg2.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^奇怪的接口②$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·奇怪的接口①",
+    "url": "https://api.tangdouz.com/qg/qg1.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^奇怪的接口①$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·哔哩哔哩搜索",
+    "url": "https://api.tangdouz.com/bilibili.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "a": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^哔哩哔哩搜索$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·报时，图片版",
+    "url": "https://api.tangdouz.com/wz/zdbs.php",
+    "type": "image",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片报时$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·葫芦侠应用or游戏搜索",
+    "url": "https://api.tangdouz.com/hlxss.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^葫芦侠搜索$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·我的世界pe服务器查询",
+    "url": "https://api.tangdouz.com/mc.php",
+    "type": "text",
+    "params": {
+      "ip": "",
+      "dk": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^MC服务器$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·翻译",
+    "url": "https://api.tangdouz.com/fy.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "return": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^翻译2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·电池电量",
+    "url": "https://api.tangdouz.com/wz/dl.php",
+    "type": "image",
+    "params": {
+      "dl": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^电池电量$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·毒鸡汤",
+    "url": "https://api.tangdouz.com/djt.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^毒鸡汤$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·爱情公寓一言",
+    "url": "https://api.tangdouz.com/aqgy.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^爱情公寓一言$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·牵",
+    "url": "https://api.tangdouz.com/wz/qian.php",
+    "type": "image",
+    "params": {
+      "q": "",
+      "qq": "",
+      "qname": "",
+      "qqname": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^牵$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·买家秀",
+    "url": "https://api.tangdouz.com/mjx.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^买家秀$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·笑话",
+    "url": "https://api.tangdouz.com/xh.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^笑话$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·vivo主题下载",
+    "url": "https://api.tangdouz.com/izt.php",
+    "type": "text",
+    "params": {
+      "lj": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^主题下载$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·堆糖搜索",
+    "url": "https://api.tangdouz.com/dtss.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^堆糖搜索$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·手机短信验证码接口",
+    "url": "https://api.tangdouz.com/dian",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^短信验证$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·你画我猜词条",
+    "url": "https://api.tangdouz.com/tdcq/nhwc.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^你画我猜词条$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·乘法",
+    "url": "https://api.tangdouz.com/js1.php",
+    "type": "text",
+    "params": {
+      "nu": "",
+      "num": "",
+      "numm": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^乘法$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·除法",
+    "url": "https://api.tangdouz.com/js3.php",
+    "type": "text",
+    "params": {
+      "nu": "",
+      "num": "",
+      "numm": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^除法$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·加法",
+    "url": "https://api.tangdouz.com/js2.php",
+    "type": "text",
+    "params": {
+      "nu": "",
+      "num": "",
+      "numm": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^加法$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·减法",
+    "url": "https://api.tangdouz.com/js.php",
+    "type": "text",
+    "params": {
+      "nu": "",
+      "num": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^减法$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·图片鉴黄",
+    "url": "https://api.tangdouz.com/dian",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片鉴黄$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机高清动漫图片",
+    "url": "https://api.tangdouz.com/abz/dm.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看动漫图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·bing每日美图",
+    "url": "https://api.tangdouz.com/bing.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^必应美图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·冷知识",
+    "url": "https://api.tangdouz.com/lzs.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^冷知识$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·json编码转换，unicode",
+    "url": "https://api.tangdouz.com/json.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^编码转换$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·历史上的今天",
+    "url": "https://api.tangdouz.com/lssjt.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^历史上的今天$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·美腿",
+    "url": "https://api.tangdouz.com/mt.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^美腿$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·高清视频壁纸，每日更新",
+    "url": "https://api.tangdouz.com/abz/vid.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^视频壁纸$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·高清壁纸，每日更新",
+    "url": "https://api.tangdouz.com/abz/bz.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^高清壁纸$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·搜图",
+    "url": "https://api.tangdouz.com/sgst.php",
+    "type": "text",
+    "params": {
+      "nr": "",
+      "sl": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·情侣名字",
+    "url": "https://api.tangdouz.com/qlmz.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^情侣名字$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·文字数量",
+    "url": "https://api.tangdouz.com/wzsl.php",
+    "type": "text",
+    "params": {
+      "lt": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^文字数量$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·微博热搜",
+    "url": "https://api.tangdouz.com/wb.php",
+    "type": "text",
+    "params": {
+      "list": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^微博热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·抽奖概率",
+    "url": "https://api.tangdouz.com/gl.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抽奖概率$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·百度搜索",
+    "url": "https://api.tangdouz.com/bd.php",
+    "type": "text",
+    "params": {
+      "nr": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^百度搜索$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·美女api",
+    "url": "https://api.tangdouz.com/mn.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^美女图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机颜色代码",
+    "url": "https://api.tangdouz.com/sjys.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机颜色代码$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·ip地理位置及网络查询",
+    "url": "https://api.tangdouz.com/ipdz.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^IP网络$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·时间接口",
+    "url": "https://api.tangdouz.com/time.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^时间接口$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·随机一言接口",
+    "url": "https://api.tangdouz.com/sjyy.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^一言$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "糖豆子·舔狗日记",
+    "url": "https://api.tangdouz.com/tg.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^舔狗日记$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·抖音点歌",
+    "url": "https://free.wqwlkj.cn/wqwlapi/dy_music.php",
+    "type": "text",
+    "params": {
+      "name": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^抖音点歌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·爱奇艺热搜风云榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/iqiyi_hot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^爱奇艺热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·360热搜榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/360_hot.php",
+    "type": "text",
+    "params": {
+      "n": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^360热搜榜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·一笔签名设计",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ysz.php",
+    "type": "text",
+    "params": {
+      "id": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^一笔签名设计$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·支付宝到账语音生成",
+    "url": "https://free.wqwlkj.cn/wqwlapi/alipay_yy.php",
+    "type": "audio",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^到账语音$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·个性头像",
+    "url": "https://free.wqwlkj.cn/wqwlapi/select_avatar.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^个性头像$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·网易云热歌榜随机音乐",
+    "url": "https://free.wqwlkj.cn/wqwlapi/wyy_random.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机热歌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·金价查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/gold.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^金价查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ音乐（免vip_ogg文件）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_music_ogg.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ音乐$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·身份证解析api",
+    "url": "https://free.wqwlkj.cn/wqwlapi/sfz.php",
+    "type": "text",
+    "params": {},
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^身份证解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·文字找茬",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ChineseFindDifferent.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^文字找茬2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·图片直链转base64图片",
+    "url": "https://free.wqwlkj.cn/wqwlapi/toBase64Img.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "result",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片编码$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·星座运势查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/xingzuo.php",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^星座运势2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·猜成语接口",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ccy.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^猜成语$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·笑话API",
+    "url": "https://free.wqwlkj.cn/wqwlapi/xiaohua.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^笑话2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·百度云ocr精准位置版",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ocr.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片识字$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·铃声多多接口_按榜单",
+    "url": "https://free.wqwlkj.cn/wqwlapi/lsdd_2.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^铃声榜单$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·铃声多多接口_按名字",
+    "url": "https://free.wqwlkj.cn/wqwlapi/lsdd_1.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜铃声$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·酷我音乐（不支持付费音乐）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/kuwo.php",
+    "type": "text",
+    "params": {
+      "n": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^酷我音乐$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·随机唱鸭音频",
+    "url": "https://free.wqwlkj.cn/wqwlapi/singduck.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机唱鸭音频$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·抖音视频无水印解析",
+    "url": "https://free.wqwlkj.cn/wqwlapi/dy.php",
+    "type": "text",
+    "params": {
+      "video": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抖音解析2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·base64图片转换",
+    "url": "https://free.wqwlkj.cn/wqwlapi/imgChange.php",
+    "type": "text",
+    "params": {
+      "img": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片解码$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ头框生成",
+    "url": "https://free.wqwlkj.cn/wqwlapi/tksc.php",
+    "type": "image",
+    "params": {
+      "qq": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ头框生成$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·域名whois查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/whois.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名查询2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ注册时间，q龄查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_register.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ注册$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ昵称获取（无需ck）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_nick.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ昵称$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·ai绘画",
+    "url": "https://free.wqwlkj.cn/wqwlapi/AIPainting.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^ai绘画$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·[游戏接口]ai成语接龙",
+    "url": "https://free.wqwlkj.cn/wqwlapi/cyjl.php",
+    "type": "text",
+    "params": {
+      "select": "",
+      "user": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^成语接龙$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·抖音视频搜索",
+    "url": "https://free.wqwlkj.cn/wqwlapi/dy_search.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抖音视频搜索$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·摸鱼人日历",
+    "url": "https://free.wqwlkj.cn/wqwlapi/moyu.php",
+    "type": "image",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^摸鱼人日历$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ名片制作1",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_card1.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^名片制作$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·[游戏接口]五子棋",
+    "url": "https://free.wqwlkj.cn/wqwlapi/yx_wzq.php",
+    "type": "text",
+    "params": {
+      "type": "",
+      "group": "",
+      "qq": ""
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^五子棋$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·斗鱼直播查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/douyu.php",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^斗鱼直播查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·百度百科接口",
+    "url": "https://free.wqwlkj.cn/wqwlapi/baidu_bk.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^百度百科接口$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·中文单字笔画查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/zibishun.php",
+    "type": "text",
+    "params": {
+      "word": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^查笔画$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·知乎每日60s",
+    "url": "https://free.wqwlkj.cn/wqwlapi/zh_60s.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^知乎日报$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·舔狗日记（图片版）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/tgbj.php",
+    "type": "image",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^舔狗日记2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·王者荣耀英雄图集",
+    "url": "https://free.wqwlkj.cn/wqwlapi/wzherotj.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^王者图集$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·仿手写自动换行图文接口",
+    "url": "https://free.wqwlkj.cn/wqwlapi/sxzsytw.php",
+    "type": "image",
+    "params": {
+      "text": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^手写文字$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·电影今日票房",
+    "url": "https://free.wqwlkj.cn/wqwlapi/piaofang.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^电影今日票房$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·中文转拼音",
+    "url": "https://free.wqwlkj.cn/wqwlapi/chtopinyin.php",
+    "type": "text",
+    "params": {
+      "word": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^中文转拼音$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·骚扰电话查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/saorao.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^骚扰电话查2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·表情包搜索",
+    "url": "https://free.wqwlkj.cn/wqwlapi/bqb_search.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜表情3$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·qr授权查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qr_inquire.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^qr授权查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·油价查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/oilprice.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^油价查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·chatgpt接口",
+    "url": "https://free.wqwlkj.cn/wqwlapi/chatgpt.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^聊天问答$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ音乐（VIP版）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_music_vip.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^会员音乐$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·抽签",
+    "url": "https://free.wqwlkj.cn/wqwlapi/chouq.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^抽签2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·emoji表情合成",
+    "url": "https://free.wqwlkj.cn/wqwlapi/emojimix.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^表情合成$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ音乐（不支持VIP，付费歌曲）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_music.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ歌曲$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·识别二维码",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qr.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^识别二维码$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·咪咕音乐",
+    "url": "https://free.wqwlkj.cn/wqwlapi/migu.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^咪咕音乐$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·快手热门短视频",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ks_hotvideo.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^快手热门$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·天气查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/weather.php",
+    "type": "text",
+    "params": {
+      "city": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^天气查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·快递100查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/kd100.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^查快递$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·自适应图文接口",
+    "url": "https://free.wqwlkj.cn/wqwlapi/zsytw.php",
+    "type": "image",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图文自适应$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·帅哥腹肌",
+    "url": "https://free.wqwlkj.cn/wqwlapi/sgfj.php",
+    "type": "image",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^帅哥腹肌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·网易云热评",
+    "url": "https://free.wqwlkj.cn/wqwlapi/wyy_rp.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网易云热评$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·获取请求用户的ip（图片版）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ip-photo.php",
+    "type": "image",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^IP图片$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·食物卡路里查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/food_kll.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^查热量$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·网站权重查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/web_qz.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网站权重查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·ikun鸡歌",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ikunyy.php",
+    "type": "audio",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^ikun鸡歌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·腾讯视频热搜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/tx_hot.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^腾讯视频热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·漂流瓶",
+    "url": "https://free.wqwlkj.cn/wqwlapi/drift.php",
+    "type": "text",
+    "params": {
+      "content": "",
+      "type": "json"
+    },
+    "parse": "content",
+    "scope": [],
+    "keywords": [
+      "(?i)^漂流瓶$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·今日头条热搜榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/jrtt_hot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^头条热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·网站快照",
+    "url": "https://free.wqwlkj.cn/wqwlapi/web_kuaizhao.php",
+    "type": "image",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网站快照$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·手机号归属地查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/phone_area.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^手机归属$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·挑战古诗词",
+    "url": "https://free.wqwlkj.cn/wqwlapi/tzgsc.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^挑战古诗词$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·最新检测域名是否能在微信正常打开",
+    "url": "https://free.wqwlkj.cn/wqwlapi/wx_jc.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^微信查链2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·图片报时",
+    "url": "https://free.wqwlkj.cn/wqwlapi/zdbs.php",
+    "type": "image",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图片报时2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·ikun有关图片",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ikun.php",
+    "type": "image",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^坤坤图片$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·个性网名",
+    "url": "https://free.wqwlkj.cn/wqwlapi/gxwm.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^个性网名$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·酷狗音乐点歌",
+    "url": "https://free.wqwlkj.cn/wqwlapi/kugou.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^酷狗音乐点歌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·车牌号归属地查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/chepai.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^车牌归属$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·域名注册查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ymzccx.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名注册查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·免费QQ名片赞",
+    "url": "https://free.wqwlkj.cn/zan.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^名片赞$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·域名备案查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/icp.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "result",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名备案查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·蓝奏云直链解析",
+    "url": "https://free.wqwlkj.cn/wqwlapi/lanzou.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^蓝奏解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·买吧，不贵（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/mbbg.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^买吧不贵$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·快了，已经在做了（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/klzzl.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^已经在做$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·教我写代码（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/jwxdm.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^教我代码$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·方方方面面给我安排好（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/anpai.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^安排好$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·我还是萌新一个（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/wsmx.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^我是萌新$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·差评（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/cp.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^差评$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·好评（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/hp.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^好评$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·没马内很难帮你办事（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ban.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^没钱难办$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·抱着哭（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/bao.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抱着哭$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·我tm教你做事（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/jnzs.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^教你做事$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·我好羡慕啊（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/xianmu.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^好羡慕$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·我为坤举旗（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/kunjuqi.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^为坤举旗$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·我拍死你个憨批（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/pai.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^拍死你$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·无所谓看蛋了（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/dan.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^无所谓$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·我想要money（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/yao.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^想要钱$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·黑白si举牌（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/tui.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^黑白举牌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·se表情包（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/se.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^SE表情$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·爬表情包生成（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/pa.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^爬表情$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·中国地图头像表情包（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/zgdt.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^地图头像$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·ping域名接口",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ping.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名测速$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·搜索字词，成功，诗词",
+    "url": "https://free.wqwlkj.cn/wqwlapi/baidu_han.php",
+    "type": "text",
+    "params": {
+      "keyword": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^查诗词$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·qq估价",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_gj.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^qq估价$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ名片制作",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_card.php",
+    "type": "image",
+    "params": {
+      "uin": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ名片制作$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ说说id和内容获取",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_ssid.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ说说$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·二维码生成",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qrcode.php",
+    "type": "image",
+    "params": {
+      "text": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^二维码2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·跳转QQ名片",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qq_friend.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^跳转QQ名片$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·获取请求用户的ip",
+    "url": "https://free.wqwlkj.cn/wqwlapi/userip.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^我的IP$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·cos小姐姐图片",
+    "url": "https://free.wqwlkj.cn/wqwlapi/hlxcos.php",
+    "type": "image",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看COS2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·摸一摸（QQ头像）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/mo.php",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^摸一摸$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·b站番剧更新列表",
+    "url": "https://free.wqwlkj.cn/wqwlapi/bi_fj.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^番剧更新$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·短视频无水印解析",
+    "url": "https://free.wqwlkj.cn/wqwlapi/shortvideo.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^视频解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·快手小姐姐图片",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ks_xjj.php",
+    "type": "image",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^快手美女$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·垃圾分类查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/rubbish.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^垃圾分类查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·全国重名查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/cmcx.php",
+    "type": "text",
+    "params": {
+      "name": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^全国重名查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·快手二次元图片",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ks_2cy.php",
+    "type": "image",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^快手动漫$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ域名拦截检测",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qqjc.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ查链2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·全国降水量预报",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qg_jiangyu.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^降水预报$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·百度热搜排行榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/baidu_hot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^百度热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·网易云音乐歌曲搜索",
+    "url": "https://free.wqwlkj.cn/wqwlapi/wyy_search.php",
+    "type": "text",
+    "params": {
+      "name": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网易点歌$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·抖音热搜排行榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/dy_hot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^抖音热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·b站排行榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/bi_hot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^b站排行榜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·百度收录查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/baidu_sl.php",
+    "type": "text",
+    "params": {
+      "domain": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^百度收录查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·知乎热搜排行榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/zh_hot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^知乎热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·图形验证码生成",
+    "url": "https://free.wqwlkj.cn/wqwlapi/yzm.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^图形验证$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·有道翻译",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ydfy.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "translation",
+    "scope": [],
+    "keywords": [
+      "(?i)^有道翻译2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·舔狗日记",
+    "url": "https://free.wqwlkj.cn/wqwlapi/tiangou.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^舔狗日记3$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·QQ访客查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/qqfangke.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ访客查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·全国疫情查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/outbreak.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^全国疫情查询$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·实时微博热搜排行榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/wb_hot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^微博热搜2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·实时快手热搜排行榜",
+    "url": "https://free.wqwlkj.cn/wqwlapi/ks_hot.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^快手热搜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·历史上的今天",
+    "url": "https://free.wqwlkj.cn/wqwlapi/histoday.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^历史上的今2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·每日一句（中文,英文）",
+    "url": "https://free.wqwlkj.cn/wqwlapi/daily.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^每日一句2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·获取b站up主信息",
+    "url": "https://free.wqwlkj.cn/wqwlapi/biup.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^UP主信息$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·王者荣耀英雄个性语音包",
+    "url": "https://free.wqwlkj.cn/wqwlapi/wzheroyy.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^王者语音$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·bing每日一图",
+    "url": "https://free.wqwlkj.cn/wqwlapi/bing.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^必应一图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "问情·快递查询",
+    "url": "https://free.wqwlkj.cn/wqwlapi/kuaidi.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^快递查询2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "问情·小米壁纸接口",
+    "url": "https://free.wqwlkj.cn/wqwlapi/xiaomi_bj.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^小米壁纸接口$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·Ai风格转变",
+    "url": "https://api.xingzhige.com/API/AiStyle/",
+    "type": "text",
+    "params": {
+      "url": "",
+      "model": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^Ai风格转变$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·Ai绘图",
+    "url": "https://api.xingzhige.com/API/DrawOne/",
+    "type": "text",
+    "params": {
+      "prompt": "",
+      "model": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^Ai绘图$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·ai说话",
+    "url": "https://api.xingzhige.com/API/AiChat/",
+    "type": "text",
+    "params": {
+      "module": "",
+      "text": "",
+      "voice": "",
+      "task_id": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^ai说话$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "星之阁·短剧搜索",
+    "url": "https://api.xingzhige.com/API/playlet/",
+    "type": "text",
+    "params": {
+      "keyword": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^短剧搜索$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·酷狗·QQ歌词获取",
+    "url": "https://api.xingzhige.com//API/lyrc/",
+    "type": "text",
+    "params": {
+      "id": "",
+      "mid": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^查歌词$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·看看小世界",
+    "url": "https://api.xingzhige.com/API/QQxsj/",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看看小世界$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·看看西瓜",
+    "url": "https://api.xingzhige.com/API/xigua/",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看看西瓜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·看看快手",
+    "url": "https://api.xingzhige.com/API/kuaishou/",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看看快手$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·看看动漫",
+    "url": "https://api.xingzhige.com/API/anime/",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看看动漫$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·看看抖音",
+    "url": "https://api.xingzhige.com/API/douyin/",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看看抖音$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·搜索漫画",
+    "url": "https://api.xingzhige.com/API/CartoonInn/",
+    "type": "text",
+    "params": {
+      "keyword": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜索漫画$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·波点音乐搜索v",
+    "url": "https://api.xingzhige.com/API/Kuwo_BD_new/",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^波点音乐$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·网易音乐搜索v",
+    "url": "https://api.xingzhige.com/API/NetEase_CloudMusic_new/",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网易音乐$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·素描",
+    "url": "https://api.xingzhige.com/API/xian/",
+    "type": "image",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^素描$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·可莉吃",
+    "url": "https://api.xingzhige.com/API/chi/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^可莉吃$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·爬！",
+    "url": "https://api.xingzhige.com/API/pa/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^爬2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·b站解析",
+    "url": "https://api.xingzhige.com/API/b_parse/",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^b站解析2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "星之阁·b站番剧解析",
+    "url": "https://api.xingzhige.com/API/b_bangumi/",
+    "type": "text",
+    "params": {
+      "ss_id": "",
+      "ep_id": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^b站番剧解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "星之阁·哔哩哔哩发私信",
+    "url": "https://api.xingzhige.com/API/b_msg/",
+    "type": "text",
+    "params": {
+      "mid": "",
+      "msg": "",
+      "sessdata": "",
+      "csrf": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^B站私信$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·b站用户信息",
+    "url": "https://api.xingzhige.com/API/b_personal/",
+    "type": "text",
+    "params": {
+      "mid": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^b站用户信息$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·cp宇宙触发器",
+    "url": "https://api.xingzhige.com/API/cp_generate_2/",
+    "type": "text",
+    "params": {
+      "name1": "",
+      "name2": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^CP宇宙$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·Minecraft皮肤渲染",
+    "url": "https://api.xingzhige.com/API/get_Minecraft_skins/",
+    "type": "text",
+    "params": {
+      "type": "",
+      "name": "",
+      "uuid": "",
+      "skinurl": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^MC皮肤$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·原神黄历",
+    "url": "https://api.xingzhige.com/API/yshl/",
+    "type": "image",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^原神黄历$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·姓名缘分测试",
+    "url": "https://api.xingzhige.com/API/yuanfen/",
+    "type": "text",
+    "params": {
+      "name1": "",
+      "name2": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^姓名缘分测试$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·cp短打生成器",
+    "url": "https://api.xingzhige.com/API/cp_generate/",
+    "type": "text",
+    "params": {
+      "g": "",
+      "s": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^CP短打$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·获取QQ头像",
+    "url": "https://api.xingzhige.com/API/get_QQavatar/",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^获取QQ头像$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·表情生成-打年糕",
+    "url": "https://api.xingzhige.com/API/pound/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^打年糕$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·表情生成-舞鸡腿",
+    "url": "https://api.xingzhige.com/API/DanceChickenLeg/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^舞鸡腿$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·表情生成-招财喵",
+    "url": "https://api.xingzhige.com/API/FortuneCat/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^招财喵$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·表情生成-一起笑",
+    "url": "https://api.xingzhige.com/API/LaughTogether/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^一起笑$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·签到日历",
+    "url": "https://api.xingzhige.com/API/Calendar/",
+    "type": "image",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^签到日历$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·生成表情-抱肉肉",
+    "url": "https://api.xingzhige.com/API/baororo/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抱肉肉$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·b站扫码登录-tv",
+    "url": "https://api.xingzhige.com/API/b_qrcode/",
+    "type": "text",
+    "params": {
+      "auth_code": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^B站登录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "星之阁·生成表情-看这个",
+    "url": "https://api.xingzhige.com/API/Lookatthis/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^看这个$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·表情生成-咬",
+    "url": "https://api.xingzhige.com/API/bite/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^咬表情$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·表情生成-顶球",
+    "url": "https://api.xingzhige.com/API/dingqiu/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^顶球$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·表情生成-拍瓜",
+    "url": "https://api.xingzhige.com/API/paigua/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^拍瓜$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·表情生成-抓",
+    "url": "https://api.xingzhige.com/API/grab/",
+    "type": "image",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抓表情$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·修改群头像",
+    "url": "https://api.xingzhige.com/API/group_avatar/",
+    "type": "text",
+    "params": {
+      "uin": "",
+      "skey": "",
+      "group": "",
+      "img_url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^修改群头像$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·修改QQ昵称",
+    "url": "https://api.xingzhige.com/API/modify_QQNickname/",
+    "type": "text",
+    "params": {
+      "uin": "",
+      "skey": "",
+      "pskey": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^修改QQ昵称$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·b站搜索",
+    "url": "https://api.xingzhige.com/API/b_search/",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "n": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^b站搜索$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·b站视频解析",
+    "url": "https://api.xingzhige.com/API/b_video/",
+    "type": "text",
+    "params": {
+      "bvid": "",
+      "aid": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^b站视频解析$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·QQ等级查询",
+    "url": "https://api.xingzhige.com/API/QQ_level/",
+    "type": "text",
+    "params": {
+      "uin": "",
+      "skey": "",
+      "pskey": "",
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ等级查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·钱包余额",
+    "url": "https://api.xingzhige.com/API/QQWallet/",
+    "type": "text",
+    "params": {
+      "uin": "",
+      "skey": "",
+      "pskey": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^钱包余额$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·业务查询",
+    "url": "https://api.xingzhige.com/API/QQ_Business/",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "uin": "",
+      "skey": "",
+      "pskey": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^业务查询$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·网易云音乐随机热评",
+    "url": "https://api.xingzhige.com/API/NetEase_CloudMusic_hotReview/",
+    "type": "text",
+    "params": {
+      "id": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网易热评$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·二维码生成",
+    "url": "https://api.xingzhige.com/API/Qrcode/",
+    "type": "image",
+    "params": {
+      "text": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^二维码3$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·Bing每日一图",
+    "url": "https://api.xingzhige.com/API/Bing_img/",
+    "type": "image",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^必应一图2$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "星之阁·群活跃排行",
+    "url": "https://api.xingzhige.com/API/group_speak/",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "skey": "",
+      "pskey": "",
+      "group": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^群活跃排行$"
+    ],
+    "enabled": true,
+    "valid": true
+  },
+  {
+    "name": "倾梦·大鹅音乐",
+    "url": "https://api.317ak.com/api/yinyue/qqyinyue/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json",
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^大鹅音乐$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·黄盒音乐",
+    "url": "https://api.317ak.com/api/yinyue/kuwo/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^黄盒音乐$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·云村点歌",
+    "url": "https://api.317ak.com/api/yinyue/wyyundg/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json",
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^云村点歌$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·蓝狗音乐",
+    "url": "https://api.317ak.com/api/yinyue/kugou/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json",
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^蓝狗音乐$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·蓝狗音乐概念版",
+    "url": "https://api.317ak.com/api/yinyue/kugougl/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json",
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^概念音乐$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·蓝狗MV",
+    "url": "https://api.317ak.com/api/yinyue/kgmv/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^蓝狗MV$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·网易聚合榜",
+    "url": "https://api.317ak.com/api/yljk/wyxyjhb/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网易聚合榜$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·百度聚合榜",
+    "url": "https://api.317ak.com/api/yljk/bdjhb/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^百度聚合榜$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·360聚合榜",
+    "url": "https://api.317ak.com/api/yljk/360jhb/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^360聚合榜$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·今日黄历",
+    "url": "https://api.317ak.com/api/yljk/huangdaojr/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^今日黄历$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·王者战力查询",
+    "url": "https://api.317ak.com/api/yljk/wzzlcx/api.php",
+    "type": "text",
+    "params": {
+      "hero": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^王者战力查询$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·星座运势配对",
+    "url": "https://api.317ak.com/api/yljk/xzyspd/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^星座运势配对$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·姓氏头像",
+    "url": "https://api.317ak.com/api/yljk/ysqm/ystx/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^姓氏头像$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·情侣头像",
+    "url": "https://api.317ak.com/api/yljk/ysqm/qntx/api.php",
+    "type": "text",
+    "params": {
+      "xl": "",
+      "msg1": "",
+      "msg2": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^情侣头像$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·艺术壁纸",
+    "url": "https://api.317ak.com/api/yljk/ysqm/ysbz/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^艺术壁纸$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·艺术签名",
+    "url": "https://api.317ak.com/api/yljk/ysqm/ysqm/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "id1": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^艺术签名$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·脱口秀",
+    "url": "https://api.317ak.com/api/yljk/tkx/api.php",
+    "type": "text",
+    "params": {
+      "lx": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^脱口秀$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·油价查询",
+    "url": "https://api.317ak.com/api/yljk/youjia/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^油价查询2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·历史上的今天(图片版)",
+    "url": "https://api.317ak.com/api/yljk/lssdjt/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^历史图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·星座运势(图片版)",
+    "url": "https://api.317ak.com/api/yljk/xzys/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^星座图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·星座运势(文字版)",
+    "url": "https://api.317ak.com/api/yljk/xzys2/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^星座文字$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ估价（文字版）",
+    "url": "https://api.317ak.com/api/yljk/qqgj/api.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "hh": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ估价2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ估价（图片版）",
+    "url": "https://api.317ak.com/api/yljk/qqgj2/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ估价图$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·抽签算卦",
+    "url": "https://api.317ak.com/api/yljk/cqsg/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^抽签算卦$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·凤凰生活资讯早报",
+    "url": "https://api.317ak.com/api/yljk/shzx/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^凤凰早报$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·二维码生成",
+    "url": "https://api.317ak.com/api/yljk/scewm/api.php",
+    "type": "text",
+    "params": {
+      "text": "",
+      "size": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^二维码4$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·企鹅翻译",
+    "url": "https://api.317ak.com/api/yljk/qqfy/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^企鹅翻译$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·小人举牌",
+    "url": "https://api.317ak.com/api/yljk/xrjp/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^小人举牌$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·人品鉴定",
+    "url": "https://api.317ak.com/api/yljk/rpjd/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^人品鉴定$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·搜索听书",
+    "url": "https://api.317ak.com/api/yljk/lrts/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^搜索听书$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·兽语加密",
+    "url": "https://api.317ak.com/api/yljk/syjm/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^兽语加密$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·60秒读世界",
+    "url": "https://api.317ak.com/api/yljk/60s/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^60秒读世界$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·心知天气信息查询",
+    "url": "https://api.317ak.com/api/yljk/zxtqcx/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^心知天气$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·语音合成",
+    "url": "https://api.317ak.com/api/yljk/yuyhc/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "result",
+    "scope": [],
+    "keywords": [
+      "(?i)^语音合成$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·腾讯新闻头条",
+    "url": "https://api.317ak.com/api/yljk/txxw/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^腾讯新闻头条$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·哔哩哔哩视频搜索",
+    "url": "https://api.317ak.com/api/yljk/blss/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^B站搜索3$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·快手热门视频",
+    "url": "https://api.317ak.com/api/yljk/ksrmsp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^快手热门视频$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·关爱你的女友",
+    "url": "https://api.317ak.com/api/yljk/gxny/api.php",
+    "type": "text",
+    "params": {
+      "msd": "",
+      "acl": "",
+      "mdays": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^关爱你的女友$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·超能力",
+    "url": "https://api.317ak.com/api/yljk/wdcnl/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^超能力$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·企鹅说说评论",
+    "url": "https://api.317ak.com/api/QQ/qqkoj/api.php",
+    "type": "text",
+    "params": {
+      "uin": "",
+      "skey": "",
+      "pskey": "",
+      "tid": "",
+      "qq": "",
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^企鹅说说评论$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·企鹅分享卡片",
+    "url": "https://api.317ak.com/api/QQ/qqkpqm/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "song": "",
+      "singer": "",
+      "cover": "",
+      "jump": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^企鹅分享卡片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·查询QQ详细信息",
+    "url": "https://api.317ak.com/api/QQ/qq_ti_vip_info/api.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "uin": "",
+      "skey": "",
+      "pskey": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ详情$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ个人信息",
+    "url": "https://api.317ak.com/api/QQ/qq_ti_info/api.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "skey": "",
+      "pskey": "",
+      "qq2": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ个人信息$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ获取QID",
+    "url": "https://api.317ak.com/api/QQ/QID/api.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "skey": "",
+      "pskey": "",
+      "qq2": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ标识$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ群换头像",
+    "url": "https://api.317ak.com/api/QQ/quntx/api.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "skey": "",
+      "url": "",
+      "group": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ群换头像$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ聊天气泡切换",
+    "url": "https://api.317ak.com/api/QQ/ltqp/api.php",
+    "type": "text",
+    "params": {
+      "qq": "",
+      "skey": "",
+      "pskey": "",
+      "id": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^换气泡$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·获取企鹅群头像",
+    "url": "https://api.317ak.com/api/QQ/qqqun/api.php",
+    "type": "text",
+    "params": {
+      "qun": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^群头像2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·获取企鹅头像",
+    "url": "https://api.317ak.com/api/QQ/qqlogo/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ头像2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ一起听歌2.0",
+    "url": "https://api.317ak.com/api/QQ/yqtg2.0/api.php",
+    "type": "text",
+    "params": {
+      "uin": "",
+      "qh": "",
+      "skey": "",
+      "pskey": "",
+      "type": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^一起听歌$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·网页快照",
+    "url": "https://api.317ak.com/api/zzgj/wzjt/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网页快照$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·网站备案",
+    "url": "https://api.317ak.com/api/zzgj/icp/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网站备案$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·Punycode",
+    "url": "https://api.317ak.com/api/zzgj/Punycode/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名编码$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·短网址生成",
+    "url": "https://api.317ak.com/api/zzgj/dwz/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^短网址生成$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·主体查询备案",
+    "url": "https://api.317ak.com/api/zzgj/ztcxban/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^主体查询备案$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·IP地址查询2.0",
+    "url": "https://api.317ak.com/api/zzgj/ipcx2.0/api.php",
+    "type": "text",
+    "params": {
+      "ip": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^IP查询$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·IP详细地址",
+    "url": "https://api.317ak.com/api/zzgj/ipcx/api.php",
+    "type": "text",
+    "params": {
+      "ip": "",
+      "type": "json"
+    },
+    "parse": "result",
+    "scope": [],
+    "keywords": [
+      "(?i)^IP详细地址$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·检测链接异常",
+    "url": "https://api.317ak.com/api/zzgj/jclj/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^检测链接异常$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·IP检测",
+    "url": "https://api.317ak.com/api/zzgj/ipjc/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^IP检测$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·SSL证书信息",
+    "url": "https://api.317ak.com/api/zzgj/ssljc/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^证书信息$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·聚合ping",
+    "url": "https://api.317ak.com/api/zzgj/jhping/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^聚合ping$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·DNS域名污染检测",
+    "url": "https://api.317ak.com/api/zzgj/dnsjc/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名污染$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·域名whois查询",
+    "url": "https://api.317ak.com/api/zzgj/whois/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名查询3$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·网站信息",
+    "url": "https://api.317ak.com/api/zzgj/wzxx/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网站信息$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·网站备案2.0",
+    "url": "https://api.317ak.com/api/zzgj/icp2.0/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^网站备案20$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·域名拦截查询",
+    "url": "https://api.317ak.com/api/zzgj/qqwxlx/api.php",
+    "type": "text",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^域名拦截查询$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·嘲讽语录",
+    "url": "https://api.317ak.com/api/wz/cfyl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^嘲讽语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·晚安心语",
+    "url": "https://api.317ak.com/api/wz/waxy/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^晚安心语$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·早安心语",
+    "url": "https://api.317ak.com/api/wz/zaxy/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^早安心语$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·神回复语录",
+    "url": "https://api.317ak.com/api/wz/shf/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^神回复语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·绕口令语录",
+    "url": "https://api.317ak.com/api/wz/rkl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^绕口令语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·脑筋急转弯",
+    "url": "https://api.317ak.com/api/wz/naowan/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^脑筋急转弯2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·顺口溜语录",
+    "url": "https://api.317ak.com/api/wz/skl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^顺口溜语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·随机求签",
+    "url": "https://api.317ak.com/api/wz/sjqq/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机求签$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·耽美小说",
+    "url": "https://api.317ak.com/api/wz/dmxs/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^耽美小说$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·巨人语录",
+    "url": "https://api.317ak.com/api/wz/jryl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^巨人语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·历史文案",
+    "url": "https://api.317ak.com/api/wz/lswa/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^历史文案$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·霸总语录",
+    "url": "https://api.317ak.com/api/wz/bzyl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^霸总语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·社会语录",
+    "url": "https://api.317ak.com/api/wz/shyl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^社会语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·诗词语录",
+    "url": "https://api.317ak.com/api/wz/scyl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^诗词语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·聚合语录",
+    "url": "https://api.317ak.com/api/wz/juhe/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^聚合语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·舔狗日记语录",
+    "url": "https://api.317ak.com/api/wz/tgrj/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^舔狗日记语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·毒鸡汤语录",
+    "url": "https://api.317ak.com/api/wz/djtyl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^毒鸡汤语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·安慰语录",
+    "url": "https://api.317ak.com/api/wz/awyl/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^安慰语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ签名语录",
+    "url": "https://api.317ak.com/api/wz/QQqm/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ签名语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·KFC语录",
+    "url": "https://api.317ak.com/api/wz/KFC/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^KFC语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·胡乱描述语录",
+    "url": "https://api.317ak.com/api/wz/hlmsyl/api.php",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^胡乱描述语录$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·QQ图文",
+    "url": "https://api.317ak.com/api/QQ/qqtw/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^QQ图文$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·堆糖搜图",
+    "url": "https://api.317ak.com/api/tp/duitangtu/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^堆糖搜图$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·龙图",
+    "url": "https://api.317ak.com/api/tp/long/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^龙图$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·坤坤图片",
+    "url": "https://api.317ak.com/api/tp/kun/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^坤坤图片2$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·壁纸搜索",
+    "url": "https://api.317ak.com/api/tp/4kbz/4kss/api.php",
+    "type": "text",
+    "params": {
+      "msg": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^壁纸搜索$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·4K壁纸专区(高质量)",
+    "url": "https://api.317ak.com/api/tp/4kbz/4k/api.php",
+    "type": "text",
+    "params": {
+      "id": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^4K壁纸专区$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·随机壁纸",
+    "url": "https://api.317ak.com/api/tp/sjbz/api.php",
+    "type": "text",
+    "params": {
+      "n": "",
+      "type": "json"
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机壁纸$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·动漫头像",
+    "url": "https://api.317ak.com/api/tp/dmtx/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^动漫头像$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·自拍图片",
+    "url": "https://api.317ak.com/api/tp/zptp/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^自拍图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·诱惑图片",
+    "url": "https://api.317ak.com/api/tp/yhtp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^诱惑图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·举牌图片",
+    "url": "https://api.317ak.com/api/tp/jptp/api.php",
+    "type": "text",
+    "params": {
+      "type": "json"
+    },
+    "parse": "text",
+    "scope": [],
+    "keywords": [
+      "(?i)^举牌图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·甘城图片",
+    "url": "https://api.317ak.com/api/tp/gcmm/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^甘城图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·动漫横图",
+    "url": "https://api.317ak.com/api/tp/dmdntp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^动漫横图$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·腹肌图片",
+    "url": "https://api.317ak.com/api/tp/fjtp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^腹肌图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·布布图片",
+    "url": "https://api.317ak.com/api/tp/bbtp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^布布图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·JK图片",
+    "url": "https://api.317ak.com/api/tp/jktp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^JK图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·白丝图片",
+    "url": "https://api.317ak.com/api/tp/bstp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^白丝图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·美女图片",
+    "url": "https://api.317ak.com/api/tp/mntp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^美女图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·动漫图片",
+    "url": "https://api.317ak.com/api/tp/dmtp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^动漫图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·黑丝图片",
+    "url": "https://api.317ak.com/api/tp/hstp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^黑丝图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·原神图片",
+    "url": "https://api.317ak.com/api/tp/ystp/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^原神图片$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·抖音主页解析",
+    "url": "https://api.317ak.com/api/jxfl/dyzyjx/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^抖音主页解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·聚合网盘解析",
+    "url": "https://api.317ak.com/api/jxfl/jhwpjx/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^聚合网盘解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·最右视频解析",
+    "url": "https://api.317ak.com/api/jxfl/zyjx/api.php",
+    "type": "video",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "data.video_url",
+    "scope": [],
+    "keywords": [
+      "(?i)^最右视频解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·抖音合集解析",
+    "url": "https://api.317ak.com/api/jxfl/dyhj/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^抖音合集解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·微博短视频去水印",
+    "url": "https://api.317ak.com/api/jxfl/wbjx/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^微博解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·哔哩短视频去水印",
+    "url": "https://api.317ak.com/api/jxfl/bljx/api.php",
+    "type": "video",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "data.video_url",
+    "scope": [],
+    "keywords": [
+      "(?i)^B站解析3$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·快手视频去水印",
+    "url": "https://api.317ak.com/api/jxfl/ksjx/api.php",
+    "type": "video",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "data.video_url",
+    "scope": [],
+    "keywords": [
+      "(?i)^快手解析$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·小红书去水印",
+    "url": "https://api.317ak.com/api/jxfl/xhs/api.php",
+    "type": "text",
+    "params": {
+      "url": ""
+    },
+    "parse": "data",
+    "scope": [],
+    "keywords": [
+      "(?i)^小红书去水印$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·抖音视频去水印",
+    "url": "https://api.317ak.com/api/jxfl/dyjx/api.php",
+    "type": "video",
+    "params": {
+      "url": "",
+      "type": "json"
+    },
+    "parse": "data.video_url",
+    "scope": [],
+    "keywords": [
+      "(?i)^抖音解析3$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·坤坤语音",
+    "url": "https://api.317ak.com/api/yy/kkyy/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^坤坤语音$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·原神KFC语音",
+    "url": "https://api.317ak.com/api/yy/ys_kfc_music/api.php",
+    "type": "text",
+    "params": {},
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^原神语音$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·奖状生成器",
+    "url": "https://api.317ak.com/api/bqbjk/jzszc/api.php",
+    "type": "text",
+    "params": {
+      "name": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^奖状生成器$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·像话吗",
+    "url": "https://api.317ak.com/api/bqbjk/xhm/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^像话吗$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·小画家",
+    "url": "https://api.317ak.com/api/bqbjk/huajia/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^小画家$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·淘汰",
+    "url": "https://api.317ak.com/api/bqbjk/taotai/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^淘汰$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·炖",
+    "url": "https://api.317ak.com/api/bqbjk/shby/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^炖$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·嘲讽",
+    "url": "https://api.317ak.com/api/bqbjk/caof/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^嘲讽$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·体温枪",
+    "url": "https://api.317ak.com/api/bqbjk/twq/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^体温枪$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·洗衣机",
+    "url": "https://api.317ak.com/api/bqbjk/xyj/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^洗衣机$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·为什么艾特我",
+    "url": "https://api.317ak.com/api/bqbjk/wsmatw/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^为什么艾特我$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·为什么要有手",
+    "url": "https://api.317ak.com/api/bqbjk/wsmys/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^为什么要有手$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·许愿失败",
+    "url": "https://api.317ak.com/api/bqbjk/xuyuan/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^许愿失败$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·致电她",
+    "url": "https://api.317ak.com/api/bqbjk/zdt/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^致电她$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·恐龙",
+    "url": "https://api.317ak.com/api/bqbjk/kl/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^恐龙$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·捂脸",
+    "url": "https://api.317ak.com/api/bqbjk/wl/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^捂脸$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·国庆头像",
+    "url": "https://api.317ak.com/api/bqbjk/gqtx/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^国庆头像$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·天堂赦免令",
+    "url": "https://api.317ak.com/api/bqbjk/st/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^天堂赦免令$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·阿尼亚喜欢",
+    "url": "https://api.317ak.com/api/bqbjk/alyxh/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^阿尼亚喜欢$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·永远喜欢你",
+    "url": "https://api.317ak.com/api/bqbjk/xhn/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^永远喜欢你$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·毒瘾发作",
+    "url": "https://api.317ak.com/api/bqbjk/dy/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^毒瘾发作$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·社会添乱",
+    "url": "https://api.317ak.com/api/bqbjk/shtl/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^社会添乱$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·跟我去二次元",
+    "url": "https://api.317ak.com/api/bqbjk/gwqecy/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^跟我去二次元$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·中国地图",
+    "url": "https://api.317ak.com/api/bqbjk/zgdt/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^中国地图$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·马冬梅表情",
+    "url": "https://api.317ak.com/api/bqbjk/gif/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^马冬梅表情$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·小丑",
+    "url": "https://api.317ak.com/api/bqbjk/clown/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^小丑$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·幽灵猎手",
+    "url": "https://api.317ak.com/api/bqbjk/lieshou2/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^幽灵猎手$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·随机头像框",
+    "url": "https://api.317ak.com/api/bqbjk/sjtxk/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^随机头像框$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·没这个",
+    "url": "https://api.317ak.com/api/bqbjk/meizhege/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^没这个$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·抱着",
+    "url": "https://api.317ak.com/api/bqbjk/baozhe/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^抱着$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·羡慕",
+    "url": "https://api.317ak.com/api/bqbjk/xianmu/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^羡慕$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·装高手",
+    "url": "https://api.317ak.com/api/bqbjk/zhuang/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^装高手$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·想要它",
+    "url": "https://api.317ak.com/api/bqbjk/xiangyao/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^想要它$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·拍",
+    "url": "https://api.317ak.com/api/bqbjk/pai/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^拍$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·吃掉",
+    "url": "https://api.317ak.com/api/bqbjk/cdiao/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^吃掉$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·你可能需要它",
+    "url": "https://api.317ak.com/api/bqbjk/nknxyt/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^你可能需要它$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·玩",
+    "url": "https://api.317ak.com/api/bqbjk/wan/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^玩$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·捣",
+    "url": "https://api.317ak.com/api/bqbjk/dao/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^捣$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·咬",
+    "url": "https://api.317ak.com/api/bqbjk/yao/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^咬$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·想看",
+    "url": "https://api.317ak.com/api/bqbjk/xiangkan/api.php",
+    "type": "text",
+    "params": {
+      "qq": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^想看$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·棉花团子",
+    "url": "https://api.317ak.com/api/bqbjk/mhtz/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^棉花团子$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·爱人爱己",
+    "url": "https://api.317ak.com/api/bqbjk/araj/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^爱人爱己$"
+    ],
+    "enabled": false,
+    "valid": true
+  },
+  {
+    "name": "倾梦·超级幸福",
+    "url": "https://api.317ak.com/api/bqbjk/cjxf/api.php",
+    "type": "text",
+    "params": {
+      "msg": ""
+    },
+    "parse": "",
+    "scope": [],
+    "keywords": [
+      "(?i)^超级幸福$"
+    ],
+    "enabled": false,
+    "valid": true
+  }
+]

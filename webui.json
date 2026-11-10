@@ -1,0 +1,167 @@
+{
+  "schema_version": 2,
+  "required_capabilities": [
+    "custom_pages"
+  ],
+  "pages": [
+    {
+      "id": "apis",
+      "title": "API 聚合管理",
+      "placement": "sidebar",
+      "icon": "database",
+      "mode": "custom",
+      "entry": "webui/index.html",
+      "layout": "viewport",
+      "queries": {
+        "read": {
+          "api": "web_read",
+          "parameters": {
+            "endpoint": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            },
+            "payload": {
+              "type": "string",
+              "required": false,
+              "max_length": 40000
+            }
+          }
+        },
+        "chunk": {
+          "api": "web_chunk",
+          "parameters": {
+            "token": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            },
+            "offset": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "test_poll": {
+          "api": "web_test_poll",
+          "parameters": {
+            "token": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            },
+            "cursor": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "defaults_info": {
+          "api": "web_defaults_info",
+          "parameters": {}
+        }
+      },
+      "actions": {
+        "write": {
+          "api": "web_write",
+          "parameters": {
+            "endpoint": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            },
+            "payload": {
+              "type": "string",
+              "required": false,
+              "max_length": 40000
+            }
+          }
+        },
+        "upload": {
+          "api": "web_upload",
+          "parameters": {
+            "token": {
+              "type": "string",
+              "required": false,
+              "max_length": 4000
+            },
+            "chunk": {
+              "type": "string",
+              "required": false,
+              "max_length": 32000
+            },
+            "offset": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "commit": {
+          "api": "web_commit",
+          "parameters": {
+            "token": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            },
+            "endpoint": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            }
+          }
+        },
+        "release": {
+          "api": "web_release",
+          "parameters": {
+            "token": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            }
+          }
+        },
+        "test_start": {
+          "api": "web_test_start",
+          "parameters": {
+            "payload": {
+              "type": "string",
+              "required": false,
+              "max_length": 40000
+            }
+          }
+        },
+        "site_test_start": {
+          "api": "web_site_test_start",
+          "parameters": {
+            "payload": {
+              "type": "string",
+              "required": false,
+              "max_length": 40000
+            }
+          }
+        },
+        "defaults_replace": {
+          "api": "web_defaults_replace",
+          "parameters": {
+            "fingerprint": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            }
+          }
+        },
+        "test_cancel": {
+          "api": "web_test_cancel",
+          "parameters": {
+            "token": {
+              "type": "string",
+              "required": true,
+              "max_length": 4000
+            }
+          }
+        }
+      }
+    }
+  ]
+}

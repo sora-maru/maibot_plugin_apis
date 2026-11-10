@@ -1,0 +1,15 @@
+[plugin]
+enabled = true
+config_version = "1.0.0"
+
+[trigger]
+need_prefix = true
+admin_users = []
+consume_message = true
+cooldown_seconds = 2.0
+max_concurrent = 4
+
+[data]
+save_data = true
+use_local = true
+max_media_mb = 8

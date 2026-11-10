@@ -1,0 +1,50 @@
+[
+  {
+    "name": "冷雨枫林",
+    "url": "https://v.yuafeng.cn",
+    "headers": {},
+    "keys": {},
+    "timeout": 30
+  },
+  {
+    "name": "枫雨二代",
+    "url": "https://api-v2.yuafeng.cn",
+    "headers": {},
+    "keys": {
+      "apikey": ""
+    },
+    "timeout": 30
+  },
+  {
+    "name": "糖豆子",
+    "url": "https://api.tangdouz.com",
+    "headers": {},
+    "keys": {
+      "key": ""
+    },
+    "timeout": 30
+  },
+  {
+    "name": "问情",
+    "url": "https://free.wqwlkj.cn",
+    "headers": {},
+    "keys": {},
+    "timeout": 30
+  },
+  {
+    "name": "星之阁",
+    "url": "https://api.xingzhige.com",
+    "headers": {},
+    "keys": {},
+    "timeout": 30
+  },
+  {
+    "name": "倾梦",
+    "url": "https://api.317ak.com",
+    "headers": {},
+    "keys": {
+      "key": ""
+    },
+    "timeout": 30
+  }
+]

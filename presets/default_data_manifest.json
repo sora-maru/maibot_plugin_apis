@@ -1,0 +1,18 @@
+{
+  "collected_at": "2026-11-10",
+  "source_count": 6,
+  "api_count": 621,
+  "enabled_api_count": 395,
+  "by_source": {
+    "冷雨枫林": 29,
+    "枫雨二代": 60,
+    "糖豆子": 189,
+    "问情": 135,
+    "星之阁": 49,
+    "倾梦": 159
+  },
+  "provenance": "公开目录和接口文档采集；网站可访问不等于各业务接口实测通过；未执行登录、上传等操作",
+  "catalog_report": "DEFAULT_DATA_SOURCES.md",
+  "keyword_version": "1.0.4",
+  "keyword_policy": "1-6 characters; unique case-insensitive exact triggers; no source prefix"
+}
