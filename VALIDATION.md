@@ -1,6 +1,22 @@
 # 验证记录
 
-日期：2026-11-10。版本：1.0.6，插件 ID：`github.sora-maru.apis`。
+日期：2026-11-20。版本：1.0.7，插件 ID：`github.sora-maru.apis`。
+
+## 1.0.7 新版 Host 适配验证
+
+- 2026-11-20 实时核对 GitHub latest Release，最新正式版为 **MaiBot v1.4.7**，固定提交 `b7f36825463413c47e61d44fe8a93427f6fe5a6f`，北京时间 2026-11-19 01:15 发布；其 pyproject 声明 Python ≥3.12、SDK ≥2.23.0、dashboard 1.10.7。
+- 新版适配器以 **v1.3.1** Release 固定提交 `2583f411c33b1e58a5e7d837a95fa283072e5842` 为准，其 `_manifest.json` 允许 MaiBot 1.4.4–1.4.99，稳定 ID 仍为 `maibot-team.snowluma-adapter`。旧适配器 1.1.9 仅允许 1.3.x，不能因本插件兼容范围扩展而假定旧适配器也已支持 1.4.x。
+- 在两个独立环境分别使用真实 **SDK 2.23.0** 和 **SDK 2.16.0** 执行全部测试，**各 67 项通过**。新增验证真实 PluginContext 的 RPC 请求与回执解包、多账号会话 account_id/scope、四类消息发送及单份音视频负载、配置热重载/卸载、3 个中文配置分组和 10 个中文字段。原 61 项数据池、页面 API、关键词、事务及缓存测试继续通过。
+- 分别执行 v1.4.7 和 v1.3.16 原版 Manifest 模型、版本比较器、WebUI Schema 2 加载器及 Runner 生命周期准入方法。两组 Host/SDK/适配器范围均通过；页面的所有 12 个私有 API 均注册，消息 Hook 为实际运行的 blocking `chat.receive.after_process`。
+- 执行 1.4.7 的原始 Hook 合并逻辑，确认 `custom_result.reason` 被记录为中止原因。使用真实 SDK 2.23.0 对接 1.4.7 原始 send.text/image/custom 能力方法，只有最终平台发送服务模拟，四类请求参数、回执结构及无引用媒体发送契约通过。
+- 执行适配器 1.3.1 原始出站编码器，确认语音/视频 Base64 正确转成 OneBot record/video 消息段；旧版 1.1.9 编码器检查仍通过。
+- 从实际安装的 **maibot-dashboard 1.10.7 wheel** 中提取发布产物的自定义页面 SDK 与 CSP，置于 `sandbox="allow-scripts"` iframe，对接插件后端。浏览器覆盖桌面 1440×1000、手机 390×480，实际操作 API/站点批量启停、站点开关联动、跨页选择、筛选、删除确认及取消。没有 JavaScript 页面异常或整页横向溢出。父页面模拟 Host API 转发，未启动真实配置的 MaiBot 或登录 QQ。
+- 621 条默认池、6 个站点、短关键词映射及配置字段与 1.0.6 比较保持一致；本次没有刷新外站接口数据。`requirements-tested.txt` 记录新版隔离测试环境，旧 SDK 环境为兼容性回归。
+- 安装包重新打开后 CRC 和每个归档成员与源码字节一致性检查通过。
+
+**验证边界：**没有部署到用户的 MaiBot 实例，也没有真实 QQ 发送/回执或逐个调用第三方接口。以上结果是实际 SDK、Host 原始契约与隔离浏览器的本地验证，不等同于真实账号端到端验收。配置值继续保留，升级无需覆盖两个池。
+
+官方证据：[MaiBot 1.4.7 Release](https://github.com/Mai-with-u/MaiBot/releases/tag/v1.4.7)、[该版本 pyproject](https://github.com/Mai-with-u/MaiBot/blob/v1.4.7/pyproject.toml)、[适配器 1.3.1 Release](https://github.com/Mai-with-u/MaiBot-SnowLuma-Adapter/releases/tag/v1.3.1)、[SDK 2.23.0](https://pypi.org/project/maibot-plugin-sdk/2.23.0/)、[WebUI 1.10.7](https://pypi.org/project/maibot-dashboard/1.10.7/)。
 
 ## 1.0.6 站点联动启停验证
 
@@ -66,7 +82,7 @@
 - **尚未部署到真实 MaiBot 实例，也没有真实 QQ 消息发送或回执。** 会话/发送能力在功能测试中模拟；编码器契约验证不能代替 SnowLuma 和 QQ 的运行测试。
 - 功能测试只使用本机回环 HTTP 服务；来源检查请求了真实公开首页、目录和文档，**未对内置 621 个第三方 API 逐个执行实际业务测试**。需要密钥的站点仍需用户自行配置，免费 API 失效、网络受限、返回格式变化等情况仍可能发生。
 - 视频/语音可能受到 QQ 风控、媒体编码、时长、大小、适配器和客户端能力限制。本地验证不保证所有媒体都能发送成功。
-- 只对目标 MaiBot 1.3.16 / SDK 2.16 / 适配器 1.1.9 的代码接口进行验证，没有运行其他 Host 或平台组合。
+- 当前验证组合为 MaiBot 1.4.7 / SDK 2.23 / 适配器 1.3.1，以及兼容回归组合 1.3.16 / 2.16 / 1.1.9；没有运行其他 Host 或平台组合。
 - 原上游 3.1.2 未提供定时触发和被 @ 用户自动参数补全，本版未新增这两项功能。
 - 源码发布目标为 `https://github.com/sora-maru/maibot_plugin_apis`。本验证记录不代表已发布 GitHub Release 或通过官方市场审核；具体推送结果以 Git 远端提交核验为准。
 

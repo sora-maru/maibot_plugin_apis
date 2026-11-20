@@ -1,4 +1,4 @@
-"""MaiBot 1.3.16 / SDK 2.16 API aggregation entry point."""
+"""API aggregation for MaiBot 1.3.16–1.4.x / Plugin SDK 2.x."""
 from __future__ import annotations
 
 import asyncio
@@ -173,7 +173,7 @@ class ApisPlugin(MaiBotPlugin):
         self.seen = {key: stamp for key, stamp in self.seen.items() if now - stamp < 120}
         self.recent = {key: stamp for key, stamp in self.recent.items() if now - stamp < 300}
         message_key = (stream_id, str(message.get('message_id') or ''))
-        action = {'action': 'abort'} if self.config.trigger.consume_message else None
+        action = {'action': 'abort', 'custom_result': {'reason': '消息已由 API 聚合插件接管'}} if self.config.trigger.consume_message else None
         if message_key[1] and message_key in self.seen:
             return action
         if message_key[1]:

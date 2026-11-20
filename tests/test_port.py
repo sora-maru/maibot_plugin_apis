@@ -59,7 +59,7 @@ async def test_hook_resolves_route_and_intercepts(plugin):
     add_api(plugin)
     plugin.core.data_service.fetch = AsyncMock(return_value=DataResource(DataType.TEXT, '测试', text='结果'))
     result = await plugin.on_message(message())
-    assert result == {'action': 'abort'}
+    assert result['action'] == 'abort' and result['custom_result']['reason']
     await drain(plugin)
     plugin.ctx.chat.open_session.assert_awaited_once_with(platform='qq', chat_type='group', user_id='u1', group_id='g1', account_id='bot', scope='route')
     assert plugin.ctx.send.text.await_args.args == ('结果', 'host-session')
@@ -80,7 +80,8 @@ async def test_scope_checks_and_mention(plugin):
     assert await plugin.on_message(message('测试', is_at=True)) is None
     plugin.config.trigger.admin_users = ['u1']
     plugin.core.data_service.fetch = AsyncMock(return_value=None)
-    assert await plugin.on_message(message('测试', is_at=True)) == {'action': 'abort'}
+    result = await plugin.on_message(message('测试', is_at=True))
+    assert result['action'] == 'abort' and result['custom_result']['reason']
     await drain(plugin)
 
 

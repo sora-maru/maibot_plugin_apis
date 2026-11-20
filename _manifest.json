@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "id": "github.sora-maru.apis",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "name": "API 聚合",
   "plugin_type": "extension",
   "description": "关键词调用各类实用与娱乐 API，支持文字、图片、视频和语音，提供接口管理、批量测试与本地缓存。",
@@ -18,7 +18,7 @@
   },
   "host_application": {
     "min_version": "1.3.16",
-    "max_version": "1.3.99"
+    "max_version": "1.4.99"
   },
   "sdk": {
     "min_version": "2.16.0",

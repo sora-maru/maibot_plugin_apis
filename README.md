@@ -2,9 +2,9 @@
 
 关键词调用各类实用与娱乐 API，发送文字、图片、视频和语音。提供站点与接口编辑、批量测试、JSON 导入导出和本地缓存管理。
 
-插件 ID：`github.sora-maru.apis`；版本：`1.0.6`；分类：**通用扩展**（`extension`）。
+插件 ID：`github.sora-maru.apis`；版本：`1.0.7`；分类：**通用扩展**（`extension`）。
 
-配置页的分组、字段名和填写说明均为中文。1.0.4 更新默认接口数据，提供先备份再覆盖两个池的更新入口；原配置、缓存和面板适配功能保留。
+配置页的分组、字段名和填写说明均为中文。1.0.7 已适配 MaiBot 1.4.7、Plugin SDK 2.23.0 和 WebUI 1.10.7，同时保留旧版 MaiBot 1.3.16 的兼容性。已有配置、默认池、缓存和短关键词继续使用。
 
 本版基于 Zhalslar 的 `astrbot_plugin_apis` **3.1.2** 移植。默认池已根据 **2026-11-10** 可读取的公开目录及文档重新生成，包含 **621 个 API 配置、6 个站点**，替换上游原有的 122 条预设。当前 395 条默认启用、226 条因密钥、维护或额外配置而默认停用。站点能访问不表示每个业务接口均已实测可用，详情见 [默认数据来源和完整清单](DEFAULT_DATA_SOURCES.md)。
 
@@ -23,12 +23,20 @@
 
 ## 环境
 
-- 目标：MaiBot **1.3.16**、Plugin SDK **2.16.0**。
-- QQ 连接：`maibot-team.snowluma-adapter` **1.1.9**、SnowLuma **2.4**。
-- Python ≥3.11。依赖为 `aiohttp`、`beautifulsoup4`，SQLite 来自 Python 标准库。
-- 继续使用适配器现有连接，无需另填 QQ 连接地址或 Token。
+截至 2026-11-20 核验的最新正式版为 [MaiBot 1.4.7](https://github.com/Mai-with-u/MaiBot/releases/tag/v1.4.7)，其 WebUI 为 1.10.7，Host 要求 Plugin SDK ≥2.23.0、Python ≥3.12。
 
-清单允许后续同系列版本，实际验证范围以 `VALIDATION.md` 为准。
+| 验证组合 | MaiBot | SDK | QQ 适配器 |
+|---|---|---|---|
+| 当前版本 | 1.4.7 | 2.23.0 | [OneBot 适配器 1.3.1](https://github.com/Mai-with-u/MaiBot-SnowLuma-Adapter/releases/tag/v1.3.1) |
+| 保留兼容 | 1.3.16 | 2.16.0 | SnowLuma 适配器 1.1.9 |
+
+两个适配器版本的稳定 ID 都是 `maibot-team.snowluma-adapter`。旧的 1.1.9 清单只允许 MaiBot 1.3.x；升级到 MaiBot 1.4.7 时请同时使用适配器 1.3.1，按适配器迁移说明保留原连接配置。本插件继续复用现有 QQ 连接，无需再填写连接地址、端口或 Token。SnowLuma 客户端本身的版本与适配器版本分别维护，本次没有升级你的客户端或实例。
+
+本插件自身需要 Python ≥3.11，运行新版 Host 时仍必须满足 Host 的 Python ≥3.12 要求。依赖为 `aiohttp`、`beautifulsoup4`，SQLite 来自 Python 标准库。清单兼容范围为 MaiBot 1.3.16–1.4.99、SDK 2.16.0–2.99.99；实际验证过的组合见上表和 `VALIDATION.md`。
+
+### 从 1.0.6 升级到 1.0.7
+
+替换插件源码或通过仓库更新后重载插件，再点管理页“重载页面”即可。此次只扩展 Host 兼容范围，并为消息 Hook 补充接管原因；**不需要重新导入或覆盖 API 池**。配置键、配置版本、站点密钥、关键词和数据目录保持兼容，621 条预设没有重新采集或改写。
 
 ## 安装
 
